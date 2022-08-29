@@ -1,5 +1,5 @@
 # ff-challenge
-Coding Challenge by FlatFair
+Coding Challenge by FlatFair.
 
 The goal of this challenge is to implement a function which calculates the membership fee of tenants. This fixed membership fee is called a flatbond - an alternative to tenancy deposits.
 
@@ -27,17 +27,17 @@ $ bundle install
 
 This project was initially writen using Ruby on Rails framework with the intent of including a front-end.
 
-Once the schema and model associations were created, I decided to simplify and focus my attention to the function `calculate_membership_fee`.
+Once the schema and model associations were created, I decided to simplify the project into plain Ruby to focus my attention on the function `calculate_membership_fee`.
 
 ## Folder structure
 
-`/db`: Schema (taken from ruby on rails)
-`/lib`: Folder that holds membership_function that calculates flatbond's fee
-`/models`: All models and their associations (taken from ruby on rails)
-`/spec`: Files for rspec testing
+- `/db`: Schema (taken from ruby on rails)
+- `/lib`: Folder that holds membership_function that calculates flatbond's fee
+- `/models`: All models and their associations (taken from ruby on rails)
+- `/spec`: Files for rspec testing
 
 ## Schema and models
-
+![Schema for ff-challenge](../db/ff-schema.png)
 
 ## Membership fee function
 
