@@ -37,7 +37,7 @@ Once the schema and model associations were created, I decided to simplify the p
 - `/spec`: Files for rspec testing
 
 ## Schema and models
-![Schema for ff-challenge](../db/ff-schema.png)
+![Schema for ff-challenge](/db/ff-schema.png)
 
 ## Membership fee function
 
