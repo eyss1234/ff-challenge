@@ -24,7 +24,7 @@ $ bundle install
 ```
 ## Initial approach
 
-This project was initially writen using Ruby on Rails framework with the intent of including a front-end.
+This project was initially written using Ruby on Rails framework with the intent of including a front-end.
 
 Once the schema and model associations were created, I decided to simplify the project into plain Ruby to focus my attention on the function `calculate_membership_fee`.
 
@@ -52,14 +52,15 @@ I initially considered creating the following schema for the organisation_unit, 
 Inputs:
 - `rent_amount`: Input rent amount in pounds (integer)
 - `rent_period`: Month or week (string)
-- `organisation_unit_config`: branch instance of organisation unit (currently set to false. See Next steps)
+- `organisation_unit_config`: branch instance of organisation unit (currently set to false. See next steps for future changes)
 
 Rules:
 - Amount is stored in pence
 - VAT is 20%
+- Membership fee is one week of rent + VAT
 - Minimum membership fee is £120 + VAT
 - Mininum rent amount is £25/week or £110/month
-- Maximum rent amount is £2000/week or £8660
+- Maximum rent amount is £2000/week or £8660/month
 
 ## Testing
 
